@@ -14,5 +14,7 @@ while(guess_number!=secret_number and loopcount >=1):
 			print ("Try a lower number.Your remaining guess is "+str(loopcount))
 	elif (guess_number<secret_number and loopcount>0):
 			print ("Try a higher number.Your remaining guess is "+str(loopcount))
+	else:
+			print("Your game ended, you lose")
 	
 
